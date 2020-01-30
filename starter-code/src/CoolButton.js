@@ -2,12 +2,12 @@ import React,{Component} from "react";
 
 class CoolButton extends Component {
     render() {
-        const classes="button"
+        let classes="button";
         if('isDanger'in this.props){
-            classes+= "is-danger"
+            classes+= "is-danger";
         }
         if('isSmall'in this.props){
-            classes+= " is-small" 
+            classes+= "is-small";
         }
         return(   
             <div>   
